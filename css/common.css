@@ -48,7 +48,9 @@ li {
     list-style: none;
 }
 .hidden {
-    display: none;
+    opacity: 0;
+    text-indent: -99999em;
+    height: 0;
 }  
 .align_center {
     text-align: center;
