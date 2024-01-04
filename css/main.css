@@ -282,11 +282,12 @@
 .rate_info {
     text-align: right;
 }
-.rate_info a {
+.rate_info span {
     color:rgb(109, 109, 109);
 }
-.rate_info a:hover {
+.rate_info span:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 .tables {
     margin: 50px 0;
