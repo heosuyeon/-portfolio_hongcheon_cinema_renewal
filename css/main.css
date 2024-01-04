@@ -39,17 +39,19 @@
 .movie_container > .container {
     margin: 0 auto;
     max-width: 1803px;
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
 }
 .movie_container h2 {
-    float: left;
-    padding: 166px 59px 0 0;
     line-height: 52px;
     font-size: 52px;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
 }
 .controls_wrap {
     padding: 15px 0;
+    margin: 0 auto;
+    width: 1330px;
 }
 .new_upcomming_mune,
 .movie_container .controls {
@@ -116,6 +118,7 @@
     width: 1330px;
     overflow: hidden;
     height: calc(427px + 60px); 
+    margin: 0 auto;
 }
 .movie_slider{   /*ul*/
     position: absolute;
